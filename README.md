@@ -19,7 +19,7 @@ Curtin Blocker is a simple userscript designed to automatically block annoying p
 
 ### 2. Install the Script:
 
-1. Copy the contents of `sidebar_blocker.user.js`
+1. Copy the contents of [sidebar_blocker.user.js](https://github.com/TurbulentGoat/curtin_blocker/blob/main/sidebar_blocker.js)
 2. Open Tampermonkey dashboard
 3. Click "Create a new script"
 4. Replace the default content with the copied script
@@ -27,7 +27,7 @@ Curtin Blocker is a simple userscript designed to automatically block annoying p
 
 ### Alternative Installation:
 
-- Click on the raw file link if hosted on GitHub
+- Click on the raw file link [sidebar_blocker.user.js](https://github.com/TurbulentGoat/curtin_blocker/blob/main/sidebar_blocker.js)
 - Tampermonkey should automatically detect and offer to install it
 
 ## Screenshot
