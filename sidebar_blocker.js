@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Curtin Sidenav Element Blocker
 // @namespace    http://tampermonkey.net/
-// @version      1.2
-// @description  Hides the annoying sidebar popups on Curtin sites.
-// @author       turbulentgoat
+// @version      2
+// @description  Hides the annoying sidebar popups on some Curtin pages and the notification count for alerts/official comms.
+// @author       TurbulentGoat
 // @match        *://*.curtin.edu.au/*
 // @grant        none
 // @run-at       document-idle
@@ -21,7 +21,8 @@
         "sidenav-overlay on",
         "sidenav-button open",
         "sidenav-ocs-container",
-        "rn_sidenav"
+        "rn_sidenav",
+        "notification-count"
     ];
 
     function hideElements() {
